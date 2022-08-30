@@ -8,7 +8,9 @@ chrome_options = Options()
 # chrome_options.add_argument("--headless")
 
 url = "https://web.telegram.org/z/#1985737506"
-driver = webdriver.Chrome(executable_path="D:\\PycharmProjects\\pythonProject\\pycuwa\\selenium-bot\\chromedriver.exe",
+# driver = webdriver.Chrome(executable_path="D:\\PycharmProjects\\pythonProject\\pycuwa\\selenium-bot\\chromedriver.exe",
+#                           options=chrome_options)
+driver = webdriver.Chrome(executable_path="/home/ubuntu/PythonProjects/chromedriverLinux",
                           options=chrome_options)
 
 # element = driver.find_element("xpath", "//div[text()='17:00']")
